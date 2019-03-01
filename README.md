@@ -6,7 +6,7 @@
 React application that allow to:
 - `get` get data from external APIs 
 - `save` data using local storage
-- `customyze` saved data to JSON you whant to
+- `customize` saved data to JSON you whant to
 - `send` processed data at any API endpoint
 
 #### Demo: [here](https://api-aggregator.konstankino.com/demo/#/)
