@@ -1,3 +1,6 @@
+[![Codecov Coverage](https://img.shields.io/codecov/c/github/ArturDubovskiy/react-api-aggregator/master.svg?style=flat-square)](https://codecov.io/gh/ArturDubovskiy/react-api-aggregator/)
+
+
 # About
 
 React application that allow to:
