@@ -1,0 +1,15 @@
+version: '3'
+services:
+  react-fetchify:
+    build:
+      context: .
+    container_name: react_app
+    command: "npm start"
+    expose:
+      - "8080"
+    ports:
+      - "127.0.0.1:8080:8080"
+    volumes:
+      - ./fetchify:/fetchify
+      - /fetchify/node_modules
+    

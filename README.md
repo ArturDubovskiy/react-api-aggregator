@@ -6,8 +6,8 @@ React application that allow to:
 - `customyze` saved data to JSON you whant to
 - `send` processed data at any API endpoint
 
-### Demo: [here.](https://api-aggregator.konstankino.com/demo/#/)
-### UserGuide: [here.](https://api-aggregator.konstankino.com/userguide/)
+#### Demo: [here](https://api-aggregator.konstankino.com/demo/#/)
+#### UserGuide: [here](https://api-aggregator.konstankino.com/userguide/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)  
 This project UI based on [Semantic UI React](https://react.semantic-ui.com/)  
