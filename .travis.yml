@@ -9,7 +9,7 @@ cache:
   directories:
   - node_modules
 before_install:
-- npm update
+- cd fetchify; npm update
 install:
 - npm install
 script:

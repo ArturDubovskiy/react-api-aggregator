@@ -23,4 +23,3 @@ build-dev:
 
 build-prod:
 	docker-compose run --rm react-fetchify npm run build:prod
-
