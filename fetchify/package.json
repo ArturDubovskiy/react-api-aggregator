@@ -30,7 +30,8 @@
     "semantic-ui-react": "^0.85.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.29.5",
-    "webpack-dev-server": "^3.1.14"
+    "webpack-dev-server": "^3.1.14",
+    "snyk": "^1.189.0"
   },
   "scripts": {
     "start": "webpack-dev-server --mode development",
@@ -38,7 +39,9 @@
     "build:prod": "webpack --mode production",
     "test": "jest",
     "test:watch": "jest --watchAll",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -64,5 +67,6 @@
     "react-test-renderer": "^16.8.3",
     "redux-mock-store": "^1.5.3",
     "webpack-cli": "^3.2.3"
-  }
+  },
+  "snyk": true
 }

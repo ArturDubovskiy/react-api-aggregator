@@ -1,0 +1,32 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > lodash:
+        patched: '2019-07-04T00:23:12.804Z'
+    - redux-form > lodash:
+        patched: '2019-07-04T00:23:12.804Z'
+    - css-loader > lodash:
+        patched: '2019-07-04T00:23:12.804Z'
+    - semantic-ui-react > lodash:
+        patched: '2019-07-04T00:23:12.804Z'
+    - webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2019-07-04T00:23:12.804Z'
+    - '@babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-member-expression-to-functions > @babel/types > lodash':
+        patched: '2019-07-04T00:23:12.804Z'
+    - html-webpack-plugin > lodash:
+        patched: '2019-07-04T00:23:12.804Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/template > @babel/types > lodash:
+        patched: '2019-07-04T00:23:12.804Z'
+    - '@babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/helper-optimise-call-expression > @babel/types > lodash':
+        patched: '2019-07-04T00:23:12.804Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-04T00:23:12.804Z'
+    - '@babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash':
+        patched: '2019-07-04T00:23:12.804Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-04T00:23:12.804Z'
+    - '@babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2019-07-04T00:23:12.804Z'
