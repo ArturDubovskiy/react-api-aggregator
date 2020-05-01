@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.5
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -30,3 +30,52 @@ patch:
         patched: '2019-07-04T00:23:12.804Z'
     - '@babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
         patched: '2019-07-04T00:23:12.804Z'
+  SNYK-JS-LODASH-567746:
+    - css-loader > lodash:
+        patched: '2020-05-01T00:23:10.984Z'
+    - html-webpack-plugin > lodash:
+        patched: '2020-05-01T00:23:10.984Z'
+    - redux-form > lodash:
+        patched: '2020-05-01T00:23:10.984Z'
+    - semantic-ui-react > lodash:
+        patched: '2020-05-01T00:23:10.984Z'
+    - snyk > lodash:
+        patched: '2020-05-01T00:23:10.984Z'
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2020-05-01T00:23:10.984Z'
+    - snyk > inquirer > lodash:
+        patched: '2020-05-01T00:23:10.984Z'
+    - snyk > snyk-config > lodash:
+        patched: '2020-05-01T00:23:10.984Z'
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2020-05-01T00:23:10.984Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2020-05-01T00:23:10.984Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2020-05-01T00:23:10.984Z'
+    - webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2020-05-01T00:23:10.984Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-05-01T00:23:10.984Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2020-05-01T00:23:10.984Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2020-05-01T00:23:10.984Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2020-05-01T00:23:10.984Z'
+    - '@babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2020-05-01T00:23:10.984Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2020-05-01T00:23:10.984Z'
+    - '@babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-05-01T00:23:10.984Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T00:23:10.984Z'
+    - '@babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-05-01T00:23:10.984Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T00:23:10.984Z'
+    - '@babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2020-05-01T00:23:10.984Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-05-01T00:23:10.984Z'
