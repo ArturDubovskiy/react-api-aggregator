@@ -14,11 +14,11 @@
     "collectCoverage": true
   },
   "dependencies": {
-    "@babel/plugin-proposal-class-properties": "^7.3.3",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
     "babel-jest": "^24.1.0",
     "babel-loader": "^8.0.5",
     "css-loader": "^2.1.0",
-    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-plugin": "^4.0.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-json-pretty": "^2.0.1",
@@ -31,7 +31,7 @@
     "style-loader": "^0.23.1",
     "webpack": "^4.29.5",
     "webpack-dev-server": "^3.1.14",
-    "snyk": "^1.189.0"
+    "snyk": "^1.996.0"
   },
   "scripts": {
     "start": "webpack-dev-server --mode development",
